@@ -1,0 +1,93 @@
+.center-div {
+	position:fixed;
+	top: 50%;
+	left: 50%;
+	width:30em;
+	height:18em;
+	margin-top: -9em; /*set to a negative number 1/2 of your height*/
+	margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+.search-bar {
+	width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 5px 3px 10px rgba(183, 179, 179, 0.56);
+}
+
+.home-logo {
+	width: 100% !important;	
+}
+
+.home-header {
+	float: right;
+}
+
+.google-button:hover, .google-button input:hover, .google-button:hover {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.google-button {
+    height: 36px;
+    line-height: 27px;
+}
+
+.google-button {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.krishnakumar-title-logo {
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+}
+
+.cursor-pointer {
+	cursor: pointer !important;
+}
+
+.small-margin-left {
+	margin-left: 10px;
+}
+
+.header-images-link {
+	display: inline-block;
+	line-height: 24px;
+	outline: none;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+	opacity: .75;
+	font-family: arial,sans-serif;
+}
+
+.header-images-link:hover {
+	text-decoration: underline;
+}

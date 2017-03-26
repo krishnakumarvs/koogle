@@ -1,3 +1,8 @@
+body {
+    display: block;
+    margin: 0px !important;
+}
+
 .center-div {
 	position:fixed;
 	top: 50%;
@@ -24,6 +29,18 @@
 
 .home-header {
 	float: right;
+}
+
+.krishnakumar-page-header {
+    float: right;
+}
+
+.krishnakumar-main-header {
+    background: #fafafa;
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .google-button:hover, .google-button input:hover, .google-button:hover {
@@ -66,6 +83,8 @@
 	height: 32px;
 	width: 32px;
 	border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .cursor-pointer {

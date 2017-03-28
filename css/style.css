@@ -1,6 +1,8 @@
 body {
     display: block;
     margin: 0px !important;
+    width: 98% !important;
+    font-family: arial,sans-serif !important;
 }
 
 .center-div {
@@ -34,6 +36,11 @@ body {
 .search-bar-section1 {
     padding-left: 15px;
     padding-top: 15px;
+    padding-right: 15px;
+}
+
+.search-bar-section2 {
+    padding-left: 15px;
     padding-right: 15px;
 }
 
@@ -134,4 +141,41 @@ body {
 .row-fluid .no-of-results-found {
     margin-top: 5px !important;
     margin-left: 40px !important;
+}
+
+.knowledge-graph {
+    border: 1px solid rgba(109, 109, 109, 0.37);
+}
+
+.krishnakumarvs-name-kb {
+    margin-top: 21px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: arial,sans-serif-light,sans-serif;
+    padding-left: 5px;
+}
+
+.krishnakumarvs-title-kb {
+    color: #777;
+    font-family: arial,sans-serif;
+    padding-left: 5px;
+}
+
+.description-kb {
+    padding : 5px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.search-title-like-link {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    color: #1a0dab;
 }
